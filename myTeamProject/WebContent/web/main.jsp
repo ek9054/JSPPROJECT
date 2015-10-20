@@ -43,7 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div>
 		<img src="images/main1.jpg">
 	</div>
-		<div class="panel panel-home-masthead panel-home-masthead-login">
+		<!-- <div class="panel panel-home-masthead panel-home-masthead-login">
 
 			<div class="panel panel-home-masthead panel-home-masthead-login">
 				<div class="panel-heading">
@@ -66,10 +66,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</tr>
 				</table>
 			</div>
-		</div>
+		</div> -->
 		<br>
-		<div>
-			<h2 class="heading text-center">BREAK BURGER 捞侩 规过</h2>
+		<div class="container">
+			<br>
+			<h2 align=left>BREAK BURGER 捞侩 规过</h2>
 			<img src="images/howto.jpg">
 		</div>
 	</center>

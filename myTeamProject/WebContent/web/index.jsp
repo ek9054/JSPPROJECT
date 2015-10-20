@@ -38,6 +38,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //for bootstrap working -->
 </head>
 <body>
+	<!--  login -->
+	<div align=right style="margin-right: 30px; margin-top: 30px">
+			<span> ID </span>
+			<input type=text name=id size=12>
+			&nbsp;
+			<span>Password </span>
+			<input type=password name=pwd size=12>
+			<input type=button value=로그인 >
+			<input type=button value=회원가입 >
+	</div>
 	<!-- header-section-starts -->	
 			<div class="header-top">
 			<div class="logo text-center">

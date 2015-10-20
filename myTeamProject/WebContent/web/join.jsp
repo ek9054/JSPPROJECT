@@ -30,6 +30,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				});
 			});
 </script>
+
 <!-- for bootstrap working -->
 		<script src="js/bootstrap.js"></script>
 </head>
@@ -41,12 +42,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<h2 class="heading text-center">Join </h2>
 		<br>
 		<br>
+		
 		<table border=0 width=350 height=400>
 			<tr>
 				<td width=20%><p class=your-para>아이디</p></td>
 				<td width=80% align=left class="send" >
 					<input type=text name=id size=16>
-					<input type=submit name=idcheck value=중복체크 >
+					<input type=button name=idcheck value=중복체크 >
 				</td>
 				
 			</tr>
@@ -54,12 +56,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<td width=20%><p class=your-para>비밀번호</p></td>
 				<td width=80% align=left>
 					<input type=password name=pwd size=30>
+					
 				</td>
 			</tr>
 			<tr>
-				<td width=20%><p class=your-para>비밀번호 확인</p></td>
+				<td width=20%><p class=your-para></p></td>
 				<td width=80%align=left>
-					<input type=password name=pwd size=30>
+					<input type=password name=pwd2 size=30 placeholder=재입력>
 				</td>
 			</tr>
 			<tr>
@@ -71,7 +74,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<tr>
 				<td width=20%><p class=your-para>생년월일</p></td>
 				<td width=80% align=left>
-					<input type=text name=age size=12>
+					<input type=date name="bday">
 				</td>
 			</tr>
 			<tr>
@@ -82,15 +85,30 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</td>
 			</tr>
 			<tr>
-				<td width=20%><p class=your-para>주소</p></td>
+				<td width=20%><p class=your-para>우편번호</p></td>
 				<td width=80% align=left>
-					<textarea name=addr2 cols=31 rows=3></textarea>
+					<input type=text id="userpost" name="post" readonly size=10>
+					<input type=button value="우편번호 검색" name=postfind>
+					
+				</td>
+			</tr>
+			<tr>
+				<td width=20%><p class=your-para>주소</p></td>
+				<td>
+					<input type=text id="useraddr1" name="addr1" readonly size=30>
+					<input type=text id="useraddr2" name="addr2" size=30>
 				</td>
 			</tr>
 			<tr>
 				<td width=20%><p class=your-para>전화번호</p></td>
 				<td width=80% align=left>
-					<input type=text name=tel size=30>
+				<select id="usertel" name="tel1">
+						<option>010</option>
+						<option>011</option>
+						<option>017</option>
+					</select>
+					<input type=text id="usertel2" name="tel2" size=10>-
+					<input type=text id="usertel3" name="tel3" size=10>
 				</td>
 			</tr>
 			<tr>
@@ -106,6 +124,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</td>
 			</tr>
 		</table>
+		
+		
 		</center>
 	</form>
 </body>
