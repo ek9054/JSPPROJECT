@@ -17,7 +17,7 @@
 							<th width=200><font color="white">날짜&시간</font></th>
 						</tr>
 						<tr>
-							<td width=100>날짜:</td>
+							<td width=100> 날짜 : <input type=date id="userbday" name="bday">
 						</tr>
 						<tr>
 							<td width=100>시간:</td>
