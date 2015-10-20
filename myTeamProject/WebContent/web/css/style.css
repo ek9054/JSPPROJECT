@@ -48,7 +48,7 @@ label{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1.2em;
-	color: #f94877;
+	color: #CC0000;
 }
 .header-banner{
 	background:url('../images/banner.jpg') no-repeat;
@@ -77,7 +77,7 @@ padding:0;
 .navbar-default .navbar-nav > li > a{
     text-transform: uppercase;
     background: none;
-    color: #020202;
+    color: #ffffff;
     font-size: 1.1em;
     letter-spacing: 1px;
     font-weight: 400;
@@ -86,13 +86,13 @@ padding:0;
   padding: 14px 0px !important;
 }
 .navbar-nav {
-background:#fff;
+background:#000000;
   float: none;
   margin: 0;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background: #f94877;
+  background: #CC0000;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
   color:#fff;
@@ -157,7 +157,7 @@ nav a:focus {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #f94877;
+  background: #CC0000;
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 0;
