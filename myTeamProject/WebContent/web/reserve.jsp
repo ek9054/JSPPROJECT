@@ -26,7 +26,7 @@
 					
 					<table border=0 width=200 align =left>
 						<tr bgcolor="Darkgray">
-							<th width=200>매장 장소</th>
+							<th width=200>매장 장1소</th>
 						</tr>
 						<tr>
 							<td width=100>동</td>
