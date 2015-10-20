@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 <style type="text/css">
-body{
+/* body{
       font-family: 'Oswald', sans-serif;
       font-size: 9pt;
 }
@@ -52,7 +52,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background:rgba(249, 72, 119, 0.79);
 }
-
+ */
 </style>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

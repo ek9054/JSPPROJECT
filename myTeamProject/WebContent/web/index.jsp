@@ -5,7 +5,15 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-     pageEncoding="UTF-8"%>
+     pageEncoding="UTF-8" import="com.change.*"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%
+   String strNo=request.getParameter("no");
+   if(strNo==null)
+      strNo="0";
+   String jsp=JspChange.change(Integer.parseInt(strNo));
+%>
+<c:set var="path" value="<%=jsp %>"/>
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,11 +80,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
 			
 				  <ul class="nav navbar-nav">
-					<li class="hvr-bounce-to-bottom active"><a href="index.html">HOME <span class="sr-only">(current)</span></a></li>
-					<li class="hvr-bounce-to-bottom"><a href="about.html">메뉴</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="typography.html">매장정보</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="blog.html">예약</a></li>
-					<li class="hvr-bounce-to-bottom"><a href="gallery.html">게시판</a></li>
+					<li class="hvr-bounce-to-bottom active"><a href="index.jsp?no=0">HOME <span class="sr-only">(current)</span></a></li>
+					<li class="hvr-bounce-to-bottom"><a href="index.jsp?no=1">메뉴</a></li>
+					<li class="hvr-bounce-to-bottom"><a href="index.jsp?no=2">매장정보</a></li>
+					<li class="hvr-bounce-to-bottom"><a href="index.jsp?no=3">예약</a></li>
+					<li class="hvr-bounce-to-bottom"><a href="index.jsp?no=4">게시판</a></li>
 					<!--  <li class="hvr-bounce-to-bottom"><a href="contact.html">이용방법</a></li>-->
 				  </ul>
 			 <div class="clearfix"></div>
@@ -93,7 +101,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- header-section-ends -->
 	<!-- content-section-starts -->
 	<div style="margin-bottom : 50px;" >
-		<jsp:include page="main.jsp"></jsp:include>
+		<jsp:include page="${path }"></jsp:include>
 	</div>
 	
 
