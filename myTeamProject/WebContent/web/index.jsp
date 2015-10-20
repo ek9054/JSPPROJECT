@@ -54,7 +54,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<span>Password </span>
 			<input type=password name=pwd size=12>
 			<input type=button value=로그인 >
-			<a href="index.jsp?no=5"><input type=button value=회원가입 ></a>
+			<a href="index.jsp?no=5" style="color:black;"><input type=button value=회원가입 ></a>
 	</div>
 	<!-- header-section-starts -->	
 			<div class="header-top">
