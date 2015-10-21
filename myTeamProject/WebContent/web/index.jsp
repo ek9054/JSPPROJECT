@@ -59,7 +59,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<!-- header-section-starts -->	
 			<div class="header-top">
 			<div class="logo text-center">
-				<h1><a href="index.html">BREAK & BURGER</a></h1>
+				<h1><a href="index.jsp?no=0">BREAK & BURGER</a></h1>
 			</div>
 			<!-- navigation -->
 <div class="navigation">
