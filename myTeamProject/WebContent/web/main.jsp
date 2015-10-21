@@ -47,16 +47,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 			<div class="panel panel-home-masthead panel-home-masthead-login">
 				<div class="panel-heading">
-					<h2>·Î±×ÀÎ</h2>
+					<h2>ë¡œê·¸ì¸</h2>
 				</div>
 				<table border=0 width=200 height=200>
 					<tr>
-						<td width=30% align=center>¾ÆÀÌµğ</td>
+						<td width=30% align=center>ì•„ì´ë””</td>
 						<td width=70% align=left><input type=text size=12></td>
 						
 					</tr>
 					<tr>
-						<td width=30% align=center>ºñ¹Ğ¹øÈ£</td>
+						<td width=30% align=center>ë¹„ë°€ë²ˆí˜¸</td>
 						<td width=70% align=left><input type=password size=12></td>
 					</tr>
 					<tr>
@@ -70,7 +70,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<br>
 		<div class="container">
 			<br>
-			<h2 align=left>BREAK BURGER ÀÌ¿ë ¹æ¹ı</h2>
+			<h2 align=left>BREAK BURGER ì´ìš© ë°©ë²•!</h2>
 			<img src="images/howto.jpg">
 		</div>
 	</center>
