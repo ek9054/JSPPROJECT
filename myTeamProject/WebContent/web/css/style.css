@@ -134,7 +134,7 @@ nav a:focus {
 	outline: none;
 }
 /* Bounce To Bottom */
-.hvr-bounce-to-bottom {
+.hvr-bounce-to-bottom{
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: translateZ(0);
