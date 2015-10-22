@@ -71,7 +71,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="container">
 			<br>
 			<h2 align=left>BREAK BURGER 이용 방법</h2>
-			<img src="images/howto.jpg">
+			<img src="images/howto2.jpg">
 		</div>
 	</center>
 
