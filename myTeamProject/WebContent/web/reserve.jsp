@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
 <style type="text/css">
-/* body{
+body{
       font-family: 'Oswald', sans-serif;
       font-size: 9pt;
 }
@@ -16,18 +16,15 @@ ul {
 }
 li {
       display:  inline;
-      padding-left: 100px;
-      padding-top: 50px;
       width: 100px;
+}
+tr {
+	height: 30px;
 }
 a{
      text-decoration: none;
      color: black;
 }
-tr {
-	height: 30px;
-}
-
 a:HOVER {
 	text-decoration: underline;
 	color: green;
@@ -50,9 +47,15 @@ input[type="submit"] {
   letter-spacing:1px;
 }
 input[type="submit"]:hover {
-  background:rgba(249, 72, 119, 0.79);
+  background: red;
 }
- */
+#wrapper{
+	border:3px solid #e14860;
+	width: 900px;
+	margin: 0px auto;
+	border-radius:10px;
+	padding: 15px;
+}
 </style>
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -82,7 +85,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 	<center>
-	<br>
+	<div id="wrapper">
 	<h2>주문하기</h2>
 	<br>
 		<table border=0>
@@ -139,7 +142,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</tr>
 		</table>
 		
-		<hr width=1000>
+		<hr width=850>
 		
 		<h2>예약확인</h2>
 		<table border=0 width=800>
@@ -192,6 +195,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 			</tr>
 		</table>
+		</div>
 	</center>
 </body>
 </html>
