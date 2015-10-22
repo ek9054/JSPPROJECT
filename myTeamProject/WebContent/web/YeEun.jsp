@@ -20,7 +20,7 @@
 <div id = "testMap" style="border:1px solid #000; width:500px; height:400px; margin:20px;"></div>
  
                 <script type="text/javascript">
-                        var oPoint = new nhn.api.map.LatLng(37.5010226, 127.0396037);
+                        var oPoint = new nhn.api.map.LatLng(37.553194, 126.936889);
                         nhn.api.map.setDefaultPoint('LatLng');
                         oMap = new nhn.api.map.Map('testMap' ,{
                                                 point : oPoint,
