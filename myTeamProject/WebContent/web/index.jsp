@@ -48,13 +48,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 	<!--  login -->
 	<div align=right style="margin-right: 30px; margin-top: 30px">
-			<span> ID </span>
-			<input type=text name=id size=12>
-			&nbsp;
-			<span>Password </span>
-			<input type=password name=pwd size=12>
-			<input type=button value=로그인 >
-			<a href="index.jsp?no=5" style="color:black;"><input type=button value=회원가입 ></a>
+		<span> ID </span>
+		 <input type="text" name=id class="form-control"
+			placeholder="id"> <span>Password </span>
+			 <input type="text" name=pwd class="form-control" placeholder="password">
+
+		<button class="btn btn-default" type="button">로그인</button>
+		<a href="index.jsp?no=5" style="color: black;">
+			<button class="btn btn-default" type="button">회원가입</button>
+		</a>
 	</div>
 	<!-- header-section-starts -->	
 			<div class="header-top">
