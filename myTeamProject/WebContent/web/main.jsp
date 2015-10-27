@@ -43,30 +43,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div>
 		<img src="images/main1.jpg">
 	</div>
-		<!-- <div class="panel panel-home-masthead panel-home-masthead-login">
 
-			<div class="panel panel-home-masthead panel-home-masthead-login">
-				<div class="panel-heading">
-					<h2>濡�洹몄��</h2>
-				</div>
-				<table border=0 width=200 height=200>
-					<tr>
-						<td width=30% align=center>���대��</td>
-						<td width=70% align=left><input type=text size=12></td>
-						
-					</tr>
-					<tr>
-						<td width=30% align=center>鍮�諛�踰���</td>
-						<td width=70% align=left><input type=password size=12></td>
-					</tr>
-					<tr>
-						<td colspan="2" align=center class="send">
-							<input type=submit value=Login>
-						</td>
-					</tr>
-				</table>
-			</div>
-		</div> -->
 		<br>
 		<div class="container">
 			<br>
