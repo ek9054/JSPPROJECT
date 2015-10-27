@@ -42,16 +42,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
 		<form method=post action="">
 			<center>
-				<br> <br>
-				<h2 class="heading text-center">Join</h2>
-				<br> <br>
+				<div class="page-header">
+					<h1>JOIN</h1>
+				</div>
 
 				<table border=0 width=400 height=500>
 					<tr>
 						<td width=20%><p class=your-para>아이디</p></td>
 						<td width=80% align=left class="send"><input type=text
-							name=id size=20 placeholder=aaa@example.com> <input type=submit name=idcheck
-							value=중복체크></td>
+							name=id size=20 placeholder=aaa@example.com> <input
+							type=submit name=idcheck value=중복체크></td>
 
 					</tr>
 					<tr>
@@ -110,7 +110,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<td class="send" colspan=3 align=center><br> <input
 							type="submit" value=가입하기></td>
 					</tr>
-					
+
 				</table>
 
 			</center>

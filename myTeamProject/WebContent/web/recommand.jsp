@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<center>
+	<%-- <center>
 		<table style="margin:100">
 			<%
 				for(int j=0;j<4;j++)
@@ -29,6 +29,101 @@
 				}
 			%>
 		</table>
-	</center>
+	</center> --%>
+	
+<center>
+
+<div class="container"> 
+		<div class="page-header">
+					<h1>RECOMMEND</h1>
+				</div>
+		<div class="blog-post-grids">
+			<div class="blog-post">
+					<a href="single.html"><img src="images/b1.jpg" class="img-responsive" alt="  "></a>
+					<div class="text">
+						<a href="single.html"> Aliquam erat volutpat</a>
+					</div>
+					<div class="admin-tag">
+					<p>Posted by <a href="single.html">Admin</a> in <a href="#">General</a> | <a href="single.html">10 Comments</a></p>
+					
+					<a href="single.html" class="hvr-shutter-in-horizontal more">Readmore<span> </span></a>
+					</div>
+			</div>
+			<div class="blog-post">
+					<a href="single.html"><img src="images/b2.jpg" class="img-responsive" alt="  "></a>
+					<div class="text">
+						<a href="single.html"> Aliquam erat volutpat</a>
+					</div>
+					<div class="admin-tag">
+					<p>Posted by <a href="single.html">Admin</a> in <a href="#">General</a> | <a href="single.html">10 Comments</a></p>
+
+					<a href="single.html" class="hvr-shutter-in-horizontal more">Readmore<span> </span></a>
+					</div>
+			</div>
+		</div>
+		<div class="blog-post-grids">
+			<div class="blog-post">
+				<a href="single.html"><img src="images/b3.jpg" class="img-responsive" alt="  "></a>
+				<div class="text">
+					<a href="single.html"> Aliquam erat volutpat</a>
+				</div>
+				<div class="admin-tag">
+				<p>Posted by <a href="single.html">Admin</a> in <a href="#">General</a> | <a href="single.html">10 Comments</a></p>
+				
+				<a href="single.html" class="hvr-shutter-in-horizontal more">Readmore<span> </span></a>
+				</div>
+			</div>
+			<div class="blog-post">
+				<a href="single.html"><img src="images/b4.jpg" class="img-responsive" alt="  "></a>
+				<div class="text">
+					<a href="single.html"> Aliquam erat volutpat</a>
+				</div>
+				<div class="admin-tag">
+				<p>Posted by <a href="single.html">Admin</a> in <a href="#">General</a> | <a href="single.html">10 Comments</a></p>
+				
+				<a href="single.html" class="hvr-shutter-in-horizontal more">Readmore<span> </span></a>
+				</div>
+			</div>
+		</div>
+		<div class="blog-post-grids">
+			<div class="blog-post">
+				<a href="single.html"><img src="images/b4.jpg" class="img-responsive" alt="  "></a>
+				<div class="text">
+					<a href="single.html"> Aliquam erat volutpat</a>
+				</div>
+				<div class="admin-tag">
+				<p>Posted by <a href="single.html">Admin</a> in <a href="#">General</a> | <a href="single.html">10 Comments</a></p>
+				
+				<a href="single.html" class="hvr-shutter-in-horizontal more">Readmore<span> </span></a>
+				</div>
+			</div>
+			<div class="blog-post">
+				<a href="single.html"><img src="images/b1.jpg" class="img-responsive" alt="  "></a>
+				<div class="text">
+					<a href="single.html"> Aliquam erat volutpat</a>
+				</div>
+				<div class="admin-tag">
+				<p>Posted by <a href="single.html">Admin</a> in <a href="#">General</a> | <a href="single.html">10 Comments</a></p>
+				
+				<a href="single.html" class="hvr-shutter-in-horizontal more">Readmore<span> </span></a>
+				</div>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+	
+	<div class="blog-pagenat">
+					<ul>
+						<li><a class="frist" href="#">Prev</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a class="last" href="#">Next</a></li>
+					</ul>
+				</div>
+				</center>	
 </body>
 </html>

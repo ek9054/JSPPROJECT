@@ -8,7 +8,12 @@
 </head>
 <body>
  <center>
-  <h3>Menu</h3>
+ <div class="container">
+	<div class="page-header">
+            <h1>MENU</h1>
+    </div>
+   <div class="media-body" >
+
    <table border=0 width=500>
     <tr>
      <td align=center>
@@ -38,6 +43,9 @@
      
     </tr>
    </table>
+   </div>
+
+   </div>
  </center>
 </body>
 </html>
